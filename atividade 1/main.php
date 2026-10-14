@@ -1,6 +1,6 @@
 <?php
-require_once 'produto.php';
-require_once 'carinho.php';
+require_once __DIR__ . '/produto.php';
+require_once __DIR__ . '/carinho.php';
 
 $p1 = new Produto(1, 'Teclado', 150.00, 10);
 $p2 = new Produto(2, 'Mouse', 80.50, 5);
